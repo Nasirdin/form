@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="bg"></div>
+    <div class="form-box">
+        <form action="#" class="form">
+            <label>Name<input class="input-1" type="text" name="name" placeholder="Luke Skywalker" required></label>
+            <div class="form_toggle">
+                <p>Gender</p>
+                <div class="gen">
+                    <div class="form_toggle-item item-1">
+                        <input id="fid-1" type="radio" name="radio" value="off" checked>
+                        <label class="male" for="fid-1"><img src="./src/img/icons/mars.svg" alt="gender-icons-male"></label>
+                        <span>Male</span>
+                    </div>
+                    <div class="form_toggle-item item-2">
+                        <input id="fid-2" type="radio" name="radio" value="on">
+                        <label class="female" for="fid-2"><img src="./src/img/icons/mars.svg" alt="gender-icons-female"></label>
+                        <span>Female</span>
+                    </div>
+                </div>
+            </div>
+            <label>Date of Birth<input class="input-1 white" value="1977-05-25" required min="1900-01-01" max="2020-12-31" type="date" name="date"></label>
+            <label>Email<input class="input-1" type="email" placeholder="lukeskywalker@galaxy.com" required></label>
+            <label>City<input class="input-1" type="text" placeholder="Moisture Farm" required></label>
+            <label>Country<input class="input-1" type="text" placeholder="Tatoine" required></label>
+            <div class="checkbox">
+                <p>Subscription</p>
+
+                <div class="form_radio_group">
+                    <div class="form_radio_group-item bronze">
+                        <input id="radio-1" type="radio" name="sub" value="1" checked>
+                        <label for="radio-1">Bronze</label>
+                    </div>
+                    <div class="form_radio_group-item silver">
+                        <input id="radio-2" type="radio" name="sub" value="2">
+                        <label for="radio-2">Silver</label>
+                    </div>
+                    <div class="form_radio_group-item gold">
+                        <input id="radio-3" type="radio" name="sub" value="3">
+                        <label for="radio-3">Gold</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="btn-block">
+                <a class="cancel" href="#">cancel</a>
+                <label><input type="submit" class="save" value="save"></label>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
