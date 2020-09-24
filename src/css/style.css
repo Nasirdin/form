@@ -209,7 +209,7 @@ body {
     height: 36px;
   }
   .wrapper .form-box .form_toggle .gen {
-    margin-right: 40px;
+    margin-right: 40px !important;
   }
   .wrapper .form-box .form .btn-block .cancel {
     padding: 13px 51px;
